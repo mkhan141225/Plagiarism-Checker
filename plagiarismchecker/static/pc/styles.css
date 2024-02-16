@@ -92,6 +92,13 @@ textarea {
   border-radius: 12px;
   margin-top: 10px;
 }
+#submit-button-2 {
+  background-color: #000000;
+  color: white;
+  font-size: large;
+  border-radius: 12px;
+  margin-top: 10px;
+}
  h2{
   color:  white !important;
 

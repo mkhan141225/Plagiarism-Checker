@@ -107,7 +107,7 @@
 
                 <form id="form1-ws" action="/test/" method="POST">
                   {% csrf_token %}
-                  <textarea id="text-1" name="q" required></textarea>
+                  <textarea id="text-1" name="q" required onclick="makeInvisible()"></textarea>
                 </form>
 
               </div>
@@ -125,7 +125,7 @@
         </div>
         <div class="col-md-12 button">
           <button type="submit" form="form1-ws" id="submit-button-1" class="btn">Run Search</button>
-          <!-- <button type="submit" form="form2-ws" id="submit-button-2" class="btn submit-button-2">Run Search</button>   -->
+          <button type="submit" form="form2-ws" id="submit-button-2" class="btn submit-button-2">Run Search</button>  
         </div>
 
 
@@ -178,15 +178,15 @@
 
 
   <script>
-    // function makeVisible() {
-    //   document.getElementById("submit-button-2").style.visibility = "visible";
-    //   document.getElementById("submit-button-1").style.visibility = "hidden";
-    // }
+    function makeVisible() {
+      document.getElementById("submit-button-2").style.visibility = "visible";
+      document.getElementById("submit-button-1").style.visibility = "hidden";
+    }
 
-    // function makeInvisible() {
-    //   document.getElementById("submit-button-2").style.visibility = "hidden";
-    //   document.getElementById("submit-button-1").style.visibility = "visible";
-    // }
+    function makeInvisible() {
+      document.getElementById("submit-button-2").style.visibility = "hidden";
+      document.getElementById("submit-button-1").style.visibility = "visible";
+    }
 
     // Initialize Typed.js
     var typed = new Typed('.typed', {

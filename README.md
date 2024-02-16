@@ -13,7 +13,8 @@ Plagiarsim checker using cosine algorithm
 
 #### How to create admin for user login?
 -`python3 manage.py createsuperuser`
-`http://127.0.0.1:8000/admin/auth/user/`
+`http://127.0.0.1:8000/admin/auth/user/` or 
+`http://127.0.0.1:8000/admin/login/`
 ##### Results
 <table>
   <tr>
