@@ -85,7 +85,7 @@ textarea {
   justify-content: center;
 }
 
-#submit-button-1 {
+/* #submit-button-1 {
   background-color: #000000;
   color: white;
   font-size: large;
@@ -98,6 +98,29 @@ textarea {
   font-size: large;
   border-radius: 12px;
   margin-top: 10px;
+} */
+
+#submit-button-1 {
+  background-color: #000000;
+  color: white;
+  font-size: large;
+  border-radius: 12px;
+  margin-top: 10px !important;
+  margin-left: 150px;
+
+}
+
+#submit-button-2{
+  margin-left: 150px;
+  background-color: #000000;
+  color: white;
+  font-size: large;
+margin-top: -90px !important;
+  border-radius: 12px;
+ 
+  
+  
+  visibility: hidden;  
 }
  h2{
   color:  white !important;
